@@ -35,7 +35,7 @@ const App = () => (
   const Navigation = () => (
 	<div className="navbar">
 	<div className="max-width">
-		<div className="logo"><a href="/">Jordan <span>Sam</span></a></div>
+		<div className="logo"><li><NavLink exact activeClassName="current" to='/'>Jordan Sam</NavLink></li></div>
 			<ul className="menu">
 			<nav>
 		<li><NavLink exact activeClassName="current" to='/'>Home</NavLink></li>
@@ -86,7 +86,7 @@ const App = () => (
                     experience in working with people within a large age range: from working 
                     with kids in middle school for church camp, friends for school projects, 
                     and coaching tennis to both younger and older adults.</p>
-                    <li><Link to="/files/Resume.pdf" target="_blank" download>Download Resume</Link></li>
+                    <li><Link to="/public/files/Resume.pdf" target="_blank" download>Download Resume</Link></li>
             </div>
         </div>
     </div>
