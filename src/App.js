@@ -35,10 +35,10 @@ const App = () => (
   const Navigation = () => (
 	<div className="navbar">
 	<div className="max-width">
-		<div className="logo"><li><NavLink exact activeClassName="current" to='/'>Jordan Sam</NavLink></li></div>
+		<div className="logo"><li><NavLink exact activeClassName="current" to='/git-portfolio'>Jordan Sam</NavLink></li></div>
 			<ul className="menu">
 			<nav>
-		<li><NavLink exact activeClassName="current" to='/'>Home</NavLink></li>
+		<li><NavLink exact activeClassName="current" to='/git-portfolio'>Home</NavLink></li>
 		<li><NavLink exact activeClassName="current" to='/about'>About</NavLink></li>
 		<li><NavLink exact activeClassName="current" to='/Projects'>Projects</NavLink></li>
 		<li><NavLink exact activeClassName="current" to='/Memories'>Memories</NavLink></li>
@@ -338,7 +338,7 @@ const Memories = () => {
   // ROUTING PATHS
   const Main = () => (
 	<Switch>
-	  <Route exact path='/' component={Home}></Route>
+	  <Route exact path='/git-portfolio' component={Home}></Route>
 	  <Route exact path='/about' component={About}></Route>
 	  <Route exact path='/projects' component={Projects}></Route>
 	  <Route exact path='/memories' component={Memories}></Route>
