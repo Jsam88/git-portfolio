@@ -4,7 +4,7 @@ import './App.css';
 //Imports for Navbar/routing
 import { Link, NavLink, Switch, Route } from 'react-router-dom';
 
-//Impoorts for Images used on pages
+//Imports for Images used on pages
 import image1 from './MyFace.jpg';
 import image2 from './Orientation_Pic.jpeg'
 import image3 from './AsiaPic.jpg'
@@ -13,6 +13,7 @@ import image5 from './Vegas2021.jpg'
 import image6 from './Hiking2020.jpg'
 import image7 from './ChurchCamp.jpg'
 import image8 from './Hangout.jpg'
+import pdf from './files/Resume.pdf'
 
 //Imports for Database API
 import { useState, useEffect } from 'react';
@@ -86,7 +87,7 @@ const App = () => (
                     experience in working with people within a large age range: from working 
                     with kids in middle school for church camp, friends for school projects, 
                     and coaching tennis to both younger and older adults.</p>
-                    <li><Link to="/src/files/Resume.pdf" target="_blank" download>Download Resume</Link></li>
+                    <li><Link to={pdf} target="_blank" download>Download Resume</Link></li>
             </div>
         </div>
     </div>
