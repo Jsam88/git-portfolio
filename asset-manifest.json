@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/git-portfolio/static/css/main.5dea74bd.chunk.css",
-    "main.js": "/git-portfolio/static/js/main.1990ae55.chunk.js",
-    "main.js.map": "/git-portfolio/static/js/main.1990ae55.chunk.js.map",
+    "main.js": "/git-portfolio/static/js/main.329d8aec.chunk.js",
+    "main.js.map": "/git-portfolio/static/js/main.329d8aec.chunk.js.map",
     "runtime-main.js": "/git-portfolio/static/js/runtime-main.d76e127f.js",
     "runtime-main.js.map": "/git-portfolio/static/js/runtime-main.d76e127f.js.map",
     "static/js/2.0d00164e.chunk.js": "/git-portfolio/static/js/2.0d00164e.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/index.css": "/git-portfolio/static/media/MauMau.ddba0514.jpg",
     "static/media/MyFace.b82c37ae.jpg": "/git-portfolio/static/media/MyFace.b82c37ae.jpg",
     "static/media/Orientation_Pic.871e9f86.jpeg": "/git-portfolio/static/media/Orientation_Pic.871e9f86.jpeg",
+    "static/media/Resume.4501b06d.pdf": "/git-portfolio/static/media/Resume.4501b06d.pdf",
     "static/media/TownBarPic.101eb216.jpg": "/git-portfolio/static/media/TownBarPic.101eb216.jpg",
     "static/media/Vegas2021.974e193b.jpg": "/git-portfolio/static/media/Vegas2021.974e193b.jpg",
     "static/media/Waiting.ce4ada70.gif": "/git-portfolio/static/media/Waiting.ce4ada70.gif"
@@ -27,6 +28,6 @@
     "static/js/runtime-main.d76e127f.js",
     "static/js/2.0d00164e.chunk.js",
     "static/css/main.5dea74bd.chunk.css",
-    "static/js/main.1990ae55.chunk.js"
+    "static/js/main.329d8aec.chunk.js"
   ]
 }
