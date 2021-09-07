@@ -61,7 +61,7 @@ const App = () => (
         <div className="home-content">
             <div className="text-1">Hello, my name is</div>
             <div className="text-2">Jordan Sam</div>
-            <div className="text-3">And I'm an <span>Aspiring Engineer</span></div>
+            <div className="text-3">and I'm an <span>Aspiring Engineer</span></div>
             <li><NavLink exact activeClassName="current" to='/Contact'>Contact Me</NavLink></li>
         </div>
     </div>
@@ -86,7 +86,7 @@ const App = () => (
                     experience in working with people within a large age range: from working 
                     with kids in middle school for church camp, friends for school projects, 
                     and coaching tennis to both younger and older adults.</p>
-                    <li><Link to="/public/files/Resume.pdf" target="_blank" download>Download Resume</Link></li>
+                    <li><Link to="/src/files/Resume.pdf" target="_blank" download>Download Resume</Link></li>
             </div>
         </div>
     </div>
