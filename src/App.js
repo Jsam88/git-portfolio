@@ -338,25 +338,25 @@ const Memories = () => {
   // ROUTING PATHS
   const Main = () => (
 	<Switch>
-	  <Route exact path='/git-portfolio' component={Home}></Route>
-	  <Route exact path='/about' component={About}></Route>
-	  <Route exact path='/projects' component={Projects}></Route>
-	  <Route exact path='/memories' component={Memories}></Route>
-	  <Route exact path='/contact' component={Contact}></Route>
-	  <Route exact path='/anime' component={Anime}></Route>
-	  <Route exact path='/youtube' component={() => {window.location.href = 'https://www.youtube.com/channel/UCndb5uFB1fNPRLRLvU1cy5Q'; 
+	  <Route path='/git-portfolio' component={Home}></Route>
+	  <Route path='/about' component={About}></Route>
+	  <Route path='/projects' component={Projects}></Route>
+	  <Route path='/memories' component={Memories}></Route>
+	  <Route path='/contact' component={Contact}></Route>
+	  <Route path='/anime' component={Anime}></Route>
+	  <Route path='/youtube' component={() => {window.location.href = 'https://www.youtube.com/channel/UCndb5uFB1fNPRLRLvU1cy5Q'; 
      return null;}}/>
-	 <Route exact path='/instagram' component={() => {window.location.href = 'https://www.instagram.com/jsam_88/'; 
+	 <Route path='/instagram' component={() => {window.location.href = 'https://www.instagram.com/jsam_88/'; 
      return null;}}/>
-	 <Route exact path='/github' component={() => {window.location.href = 'https://github.com/Jsam88'; 
+	 <Route path='/github' component={() => {window.location.href = 'https://github.com/Jsam88'; 
      return null;}}/>
-	 <Route exact path='/facebook' component={() => {window.location.href = 'https://www.facebook.com/jordan.sam.5076'; 
+	 <Route path='/facebook' component={() => {window.location.href = 'https://www.facebook.com/jordan.sam.5076'; 
      return null;}}/>
-	 <Route exact path='/linkedin' component={() => {window.location.href = 'https://www.linkedin.com/in/jordan-b-sam/'; 
+	 <Route path='/linkedin' component={() => {window.location.href = 'https://www.linkedin.com/in/jordan-b-sam/'; 
      return null;}}/>
-	 <Route exact path='/asiadvisors' component={() => {window.location.href = 'https://www.asiadvisors.com/'; 
+	 <Route path='/asiadvisors' component={() => {window.location.href = 'https://www.asiadvisors.com/'; 
      return null;}}/>
-	 <Route exact path='/townBar' component={() => {window.location.href = 'https://townbarandlounge.com/'; 
+	 <Route path='/townBar' component={() => {window.location.href = 'https://townbarandlounge.com/'; 
      return null;}}/>
 	</Switch>
   );
