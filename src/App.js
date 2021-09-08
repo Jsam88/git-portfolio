@@ -344,19 +344,26 @@ const Memories = () => {
 	  <Route path='/memories' component={Memories}></Route>
 	  <Route path='/contact' component={Contact}></Route>
 	  <Route path='/anime' component={Anime}></Route>
-	  <Route path='/youtube' component={() => {window.location.href = 'https://www.youtube.com/channel/UCndb5uFB1fNPRLRLvU1cy5Q'; 
+
+	  <Route path='/youtube' component={() => {window.location.replace('https://www.youtube.com/channel/UCndb5uFB1fNPRLRLvU1cy5Q'); 
      return null;}}/>
-	 <Route path='/instagram' component={() => {window.location.href = 'https://www.instagram.com/jsam_88/'; 
+
+	 <Route path='/instagram' component={() => {window.location.replace('https://www.instagram.com/jsam_88/'); 
      return null;}}/>
-	 <Route path='/github' component={() => {window.location.href = 'https://github.com/Jsam88'; 
+
+	 <Route path='/github' component={() => {window.location.replace('https://github.com/Jsam88'); 
      return null;}}/>
-	 <Route path='/facebook' component={() => {window.location.href = 'https://www.facebook.com/jordan.sam.5076'; 
+
+	 <Route path='/facebook' component={() => {window.location.replace('https://www.facebook.com/jordan.sam.5076'); 
      return null;}}/>
-	 <Route path='/linkedin' component={() => {window.location.href = 'https://www.linkedin.com/in/jordan-b-sam/'; 
+
+	 <Route path='/linkedin' component={() => {window.location.replace('https://www.linkedin.com/in/jordan-b-sam/'); 
      return null;}}/>
-	 <Route path='/asiadvisors' component={() => {window.location.href = 'https://www.asiadvisors.com/'; 
+
+	 <Route path='/asiadvisors' component={() => {window.location.replace('https://www.asiadvisors.com/'); 
      return null;}}/>
-	 <Route path='/townBar' component={() => {window.location.href = 'https://townbarandlounge.com/'; 
+	 
+	 <Route path='/townBar' component={() => {window.location.replace('https://townbarandlounge.com/'); 
      return null;}}/>
 	</Switch>
   );
