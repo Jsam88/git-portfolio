@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/git-portfolio/static/css/main.5dea74bd.chunk.css",
-    "main.js": "/git-portfolio/static/js/main.329d8aec.chunk.js",
-    "main.js.map": "/git-portfolio/static/js/main.329d8aec.chunk.js.map",
+    "main.js": "/git-portfolio/static/js/main.cc71a8ab.chunk.js",
+    "main.js.map": "/git-portfolio/static/js/main.cc71a8ab.chunk.js.map",
     "runtime-main.js": "/git-portfolio/static/js/runtime-main.d76e127f.js",
     "runtime-main.js.map": "/git-portfolio/static/js/runtime-main.d76e127f.js.map",
-    "static/js/2.0d00164e.chunk.js": "/git-portfolio/static/js/2.0d00164e.chunk.js",
-    "static/js/2.0d00164e.chunk.js.map": "/git-portfolio/static/js/2.0d00164e.chunk.js.map",
+    "static/js/2.e22322ab.chunk.js": "/git-portfolio/static/js/2.e22322ab.chunk.js",
+    "static/js/2.e22322ab.chunk.js.map": "/git-portfolio/static/js/2.e22322ab.chunk.js.map",
     "static/js/3.721fbe02.chunk.js": "/git-portfolio/static/js/3.721fbe02.chunk.js",
     "static/js/3.721fbe02.chunk.js.map": "/git-portfolio/static/js/3.721fbe02.chunk.js.map",
     "index.html": "/git-portfolio/index.html",
     "static/css/main.5dea74bd.chunk.css.map": "/git-portfolio/static/css/main.5dea74bd.chunk.css.map",
-    "static/js/2.0d00164e.chunk.js.LICENSE.txt": "/git-portfolio/static/js/2.0d00164e.chunk.js.LICENSE.txt",
+    "static/js/2.e22322ab.chunk.js.LICENSE.txt": "/git-portfolio/static/js/2.e22322ab.chunk.js.LICENSE.txt",
     "static/media/AsiaPic.63043a91.jpg": "/git-portfolio/static/media/AsiaPic.63043a91.jpg",
     "static/media/ChurchCamp.da1b6182.jpg": "/git-portfolio/static/media/ChurchCamp.da1b6182.jpg",
     "static/media/Hangout.b9949d01.jpg": "/git-portfolio/static/media/Hangout.b9949d01.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d76e127f.js",
-    "static/js/2.0d00164e.chunk.js",
+    "static/js/2.e22322ab.chunk.js",
     "static/css/main.5dea74bd.chunk.css",
-    "static/js/main.329d8aec.chunk.js"
+    "static/js/main.cc71a8ab.chunk.js"
   ]
 }
