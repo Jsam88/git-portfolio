@@ -107,7 +107,8 @@ const App = () => (
             	<h2>Alpha Solutions Investmnet Advisors</h2>
             	<p>I designed the website asiadvisors.com </p>
 
-				<li><NavLink exact activeClassName="current" to='/asiadvisors'>Visit Site </NavLink></li>
+				{/* <li><NavLink exact activeClassName="current" to='/asiadvisors'>Visit Site </NavLink></li> */}
+				<li><Link to="/asiadvisors" target="_blank" rel="noopener noreferrer">Visit Site</Link></li>
           	</div> 
 		</div>
 	  <div className="image"><img src={image3} alt="img" /></div>
@@ -126,7 +127,7 @@ const App = () => (
 					building itself was inspired by the iconic I. Magnin and Co. building and will 
 					soon be open to the public for food and drinks! </p>
 
-				<li><NavLink exact activeClassName="current" to='/townBar' justify-content= "center">Visit Site</NavLink> </li>
+				<li><Link to="/townbar" target="_blank" rel="noopener noreferrer">Visit Site</Link></li>
           		</div>
 			</div>
 	</div>
@@ -175,7 +176,6 @@ const App = () => (
 const Memories = () => {
 	return (
 	  <div>
-		<h2>Fade Effect</h2>
 		<div className="mem-container">
 		<div className="slide-container">
 		  <Fade>
@@ -278,12 +278,11 @@ const Memories = () => {
 	</div>
 				<div classname="social">
 					<ul>
-						
-					<a href="/youtube"><i className="fab fa-youtube"></i></a>
-					<a href="/instagram"><i className="fab fa-instagram-square"></i></a>
-					<a href="/github"><i className="fab fa-github-square"></i></a>
-					<a href="/facebook"><i className="fab fa-facebook-square"></i></a>
-					<a href="/linkedin"><i className="fab fa-linkedin"></i></a>
+					<Link to="/youtube" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></Link>
+					<Link to="/instagram" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></Link>
+					<Link to="/github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></Link>
+					<Link to="/facebook" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></Link>
+					<Link to="/linkedin" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></Link>
 					</ul>
 				</div>		
 </section>
