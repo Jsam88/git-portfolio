@@ -107,8 +107,7 @@ const App = () => (
             	<h2>Alpha Solutions Investmnet Advisors</h2>
             	<p>I designed the website asiadvisors.com </p>
 
-				{/* <li><NavLink exact activeClassName="current" to='/asiadvisors'>Visit Site </NavLink></li> */}
-				<li><Link to="/asiadvisors" target="_blank" rel="noopener noreferrer">Visit Site</Link></li>
+				<li><Link to={{ pathname: "https://www.asiadvisors.com" }} target="_blank">Visit Site</Link></li>
           	</div> 
 		</div>
 	  <div className="image"><img src={image3} alt="img" /></div>
@@ -278,11 +277,11 @@ const Memories = () => {
 	</div>
 				<div classname="social">
 					<ul>
-					<Link to="/youtube" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></Link>
-					<Link to="/instagram" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></Link>
-					<Link to="/github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></Link>
-					<Link to="/facebook" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></Link>
-					<Link to="/linkedin" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></Link>
+					<Link to={{ pathname: "https://www.youtube.com/channel/UCndb5uFB1fNPRLRLvU1cy5Q" }} target="_blank"><i className="fab fa-youtube"></i></Link>
+					<Link to={{ pathname: "https://www.instagram.com/jsam_88" }} target="_blank"><i className="fab fa-instagram-square"></i></Link>
+					<Link to={{ pathname: "https://github.com/Jsam88" }} target="_blank"><i className="fab fa-github-square"></i></Link>
+					<Link to={{ pathname: "https://www.facebook.com/jordan.sam.5076" }} target="_blank"><i className="fab fa-facebook-square"></i></Link>
+					<Link to={{ pathname: "https://www.linkedin.com/in/jordan-b-sam" }} target="_blank"><i className="fab fa-linkedin"></i></Link>
 					</ul>
 				</div>		
 </section>
@@ -344,27 +343,6 @@ const Memories = () => {
 	  <Route path='/memories' component={Memories}></Route>
 	  <Route path='/contact' component={Contact}></Route>
 	  <Route path='/anime' component={Anime}></Route>
-
-	  <Route path='/youtube' component={() => {window.location.replace('https://www.youtube.com/channel/UCndb5uFB1fNPRLRLvU1cy5Q'); 
-     return null;}}/>
-
-	 <Route path='/instagram' component={() => {window.location.replace('https://www.instagram.com/jsam_88/'); 
-     return null;}}/>
-
-	 <Route path='/github' component={() => {window.location.replace('https://github.com/Jsam88'); 
-     return null;}}/>
-
-	 <Route path='/facebook' component={() => {window.location.replace('https://www.facebook.com/jordan.sam.5076'); 
-     return null;}}/>
-
-	 <Route path='/linkedin' component={() => {window.location.replace('https://www.linkedin.com/in/jordan-b-sam/'); 
-     return null;}}/>
-
-	 <Route path='/asiadvisors' component={() => {window.location.replace('https://www.asiadvisors.com/'); 
-     return null;}}/>
-	 
-	 {/* <Route path='/townBar' component={() => {window.location.replace('https://townbarandlounge.com/'); 
-     return null;}}/> */}
 	</Switch>
   );
   
