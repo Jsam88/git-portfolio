@@ -127,7 +127,7 @@ const App = () => (
 					building itself was inspired by the iconic I. Magnin and Co. building and will 
 					soon be open to the public for food and drinks! </p>
 
-				<li><Link to="/townbar" target="_blank" rel="noopener noreferrer">Visit Site</Link></li>
+				<li><Link to={{ pathname: "https://townbarandlounge.com" }} target="_blank">Visit Site</Link></li>
           		</div>
 			</div>
 	</div>
@@ -363,8 +363,8 @@ const Memories = () => {
 	 <Route path='/asiadvisors' component={() => {window.location.replace('https://www.asiadvisors.com/'); 
      return null;}}/>
 	 
-	 <Route path='/townBar' component={() => {window.location.replace('https://townbarandlounge.com/'); 
-     return null;}}/>
+	 {/* <Route path='/townBar' component={() => {window.location.replace('https://townbarandlounge.com/'); 
+     return null;}}/> */}
 	</Switch>
   );
   
