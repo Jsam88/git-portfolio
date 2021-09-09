@@ -364,6 +364,14 @@ text-align: center;
 
 
 /* Responsive media query start */
+
+
+@media (max-width: 1600px){
+  .home .max-width{
+      margin-left: 0px;
+  }
+}
+
 @media (max-width: 1300px){
     .home .max-width{
         margin-left: 0px;

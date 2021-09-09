@@ -18,9 +18,7 @@ function MainContent(props) {
            </div>
 
            <div className="WaitingGif" id="WaitingGif"> 
-                <img src={gif1} alt="Waiting" width="700" height="400" 
-                // onClick= {(event) => event.target.style.display = 'none'}
-                />
+                <img src={gif1} alt="Waiting" width="700" height="400"/>
 
                 <h2>Waiting For a Search...</h2>
            </div>

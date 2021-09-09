@@ -46,7 +46,7 @@ const App = () => (
 		<li><NavLink exact activeClassName="current" to='/Anime'>Anime</NavLink></li>
 	</nav>
 			</ul>
-			<div className="menu-btn">
+			<div className="menu-btn" id="menu-btn">
 				<i className="fas fa-bars"></i>
 			</div>
 		</div>
@@ -131,47 +131,7 @@ const App = () => (
 			</div>
 	</div>
   </section>
-// 	<section className ="about" id="projects">
-    
-// 		<div className="max-width">
-// 	  <h2 className ="title">Personal Projects</h2>
-//       </div>
-//       <div className="all-projects">
-//         <div className="project-item">
-
-//             <img src={image3} alt="img" className="project-img"/>
-//         <div className="project-item">
-//           <div className="project-info">
-//             <h1>AWS</h1>
-//             <h2>Web Design for Town Bar and Lounge</h2>
-//             <p></p>
-//           </div>
-//           <div className="project-img">
-//             <img src={image4} alt="img"/>
-//           </div>
-//         </div>
-// 		</div>
-// 		</div>
-//   </section>
   );
-
-// MEMORIES
-// const Memories = () => (
-// 	<section className="memories" id="memories">
-//     <div className="max-width">
-//         <h2 className ="title">Memories</h2>
-//         <div className="memories-content">
-//             <div className="column left">
-//                 <img src={image2} alt="UCR Orientation"/>
-// 			</div>
-//             <div className="column right">
-//                 <div className="text">UCR Orientation!</div>
-//                 <p> This was my first time on campus and I met some really great people.</p>
-//             </div>
-//         </div>
-//     </div>
-	
-// </section>
 const Memories = () => {
 	return (
 	  <div>
