@@ -135,9 +135,9 @@ const App = () => (
 const Memories = () => {
 	return (
 	  <div>
-		<div className="mem-container">
 		<div className="slide-container">
 		  <Fade>
+
 			<div className="each-fade">
 			  <div>
 			  <img src={image2} alt="UCR Orientation"/>
@@ -145,6 +145,7 @@ const Memories = () => {
 			  <p><h1>UCR Orientation!</h1>
 			  	This was the first time I visited the campus and I met a lot of great people there.</p>
 			</div>
+
 			<div className="each-fade">
 			  <p><h1>Vegas 2021</h1>
 				I spent a ton of time with my family and got to eat out at a ton of places which was 
@@ -153,6 +154,7 @@ const Memories = () => {
 			  <img src={image5} alt="Vegas Trip"/>
 			  </div>
 			</div>
+
 			<div className="each-fade">
 			  <div>
 			  <img src={image6} alt="Hiking"/>
@@ -160,6 +162,7 @@ const Memories = () => {
 			  <p><h1>Hiking!</h1>
 				I get to enjoy living in the bay area.</p>
 			</div>
+
 			<div className="each-fade">
 			  <div>
 			  <img src={image7} alt="Church Camp"/>
@@ -167,18 +170,18 @@ const Memories = () => {
 			  <p><h1>Church Camp!</h1>
 				I learned a lot about my faith and enjoyed spending time with all the kids.</p>
 			</div>
+
 			<div className="each-fade">
 			  <div>
 			  <img src={image8} alt="Hangout"/>
 			  </div>
 			  <p><h1>Hanging out with Friends :)</h1>
-			Everyone called me a pineapple the whole night…
-</p>
+			Everyone called me a pineapple the whole night…</p>
 			</div>
+			
 		  </Fade>
 		</div>
 		</div>
-	  </div>
 	);
   };
   
