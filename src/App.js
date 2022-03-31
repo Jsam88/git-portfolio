@@ -13,7 +13,7 @@ import image5 from './Vegas2021.jpg'
 import image6 from './Hiking2020.jpg'
 import image7 from './ChurchCamp.jpg'
 import image8 from './Hangout.jpg'
-import pdf from './files/Resume.pdf'
+import pdf from './files/Resume_2022.pdf'
 
 //Imports for Database API
 import { useState, useEffect } from 'react';
@@ -105,7 +105,9 @@ const App = () => (
 	  		<div className="project-info">
             	<h1>Website Development</h1>
             	<h2>Alpha Solutions Investmnet Advisors</h2>
-            	<p>I designed the website asiadvisors.com </p>
+            	<p> I designed the website asiadvisors.com with one of my friends from UCR. We reduced
+					the costs of the website and increased website traffic.
+				</p>
 
 				<li><Link to={{ pathname: "https://www.asiadvisors.com" }} target="_blank">Visit Site</Link></li>
           	</div> 
